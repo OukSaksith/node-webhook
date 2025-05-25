@@ -8,8 +8,8 @@ module.exports = async (req, res) => {
   const data = req.body;
 
   // Your Telegram bot info
-  const TELEGRAM_TOKEN = 'your_bot_token';
-  const CHAT_ID = 'your_chat_id';
+  const TELEGRAM_TOKEN = '7488555690:AAF4kZbOezSnA-Ve9JzOs3d2LnDfFX3pytg';
+  const CHAT_ID = '450565440';
 
   try {
     const message = `📄 New Submission:\n\n${JSON.stringify(data, null, 2)}`;
